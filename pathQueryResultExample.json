@@ -1,0 +1,122 @@
+{
+"results":
+[
+	{
+	"columns":
+		[
+		"p1",
+		"p2",
+		"Path",
+		"PathSize"
+		],
+	"data":
+	[
+		{
+		"graph":
+			{
+			"nodes":
+				[
+					{"id":"638690","labels":["Variable"],"properties":{"varId":"varx1s91783","name":"x1"}},
+					{"id":"133671","labels":["Word","DefWord"],"properties":{"vars":"['e1']","defId":"defIDof+$","sentence":" ahorse:RB(e1) -> on:IN(e1,x2) back:NN(x2) of:IN(x2,x1) horse:NN(x1)","word":"of","pos":"IN"}},
+					{"id":"638625","labels":["Variable"],"properties":{"varId":"varx1s91770","name":"x1"}},
+					{"id":"91783","labels":["HeadWord","Word"],"properties":{"vars":"['x1']","sentence":" jerusalem:NN(x1) -> be:VB(e1,x1,x1) capital:NN(x1) of:IN(x1,x2) ancient:JJ(x2) kingdom:NN(2)","word":"jerusalem","hwId":"hwjerusalem91783","pos":"NN"}},
+					{"id":"91770","labels":["HeadWord","Word"],"properties":{"vars":"['x1']","sentence":" israel:NN(x1) -> ancient:JJ(x1) kingdom:NN(x1) of:IN(x1,x2) hebrew:JJ(x2) tribe:NN(x2) at:IN(x1,x4) southeastern:JJ(x4) end:NN(x4) of:IN(x4,x5) mediterranean_sea:NN(x5)","word":"israel","hwId":"hwisrael91770","pos":"NN"}}
+				],
+
+			"relationships":
+				[
+				{"id":"1157403","type":"<-","startNode":"91770","endNode":"638625","properties":{}},
+				{"id":"1157605","type":"IN","startNode":"133671","endNode":"638690","properties":{}},
+				{"id":"1157407","type":"IN","startNode":"133671","endNode":"638625","properties":{}},
+				{"id":"1157599","type":"<-","startNode":"91783","endNode":"638690","properties":{}}
+				]
+			}
+		},
+
+		{
+		"graph":
+			{
+			"nodes":
+				[
+					{"id":"638690","labels":["Variable"],"properties":{"varId":"varx1s91783","name":"x1"}},
+					{"id":"133671","labels":["Word","DefWord"],"properties":{"vars":"['e1']","defId":"defIDof+$","sentence":" ahorse:RB(e1) -> on:IN(e1,x2) back:NN(x2) of:IN(x2,x1) horse:NN(x1)","word":"of","pos":"IN"}},
+					{"id":"638625","labels":["Variable"],"properties":{"varId":"varx1s91770","name":"x1"}},
+					{"id":"91783","labels":["HeadWord","Word"],"properties":{"vars":"['x1']","sentence":" jerusalem:NN(x1) -> be:VB(e1,x1,x1) capital:NN(x1) of:IN(x1,x2) ancient:JJ(x2) kingdom:NN(x2)","word":"jerusalem","hwId":"hwjerusalem91783","pos":"NN"}},
+					{"id":"91770","labels":["HeadWord","Word"],"properties":{"vars":"['x1']","sentence":" israel:NN(x1) -> ancient:JJ(x1) kingdom:NN(x1) of:IN(x1,x2) hebrew:JJ(x2) tribe:NN(x2) at:IN(x1,x4) southeastern:JJ(x4) end:NN(x4) of:IN(x4,x5) mediterranean_sea:NN(x5)","word":"israel","hwId":"hwisrael91770","pos":"NN"}}
+				],
+
+			"relationships":
+				[
+					{"id":"1157403","type":"<-","startNode":"91770","endNode":"638625","properties":{}},
+					{"id":"1157605","type":"IN","startNode":"133671","endNode":"638690","properties":{}},
+					{"id":"1157407","type":"IN","startNode":"133671","endNode":"638625","properties":{}},
+					{"id":"1157600","type":"NN","startNode":"91783","endNode":"638690","properties":{}}
+				]
+			}
+		},
+			
+		{
+		"graph":
+			{
+			"nodes":
+				[
+					{"id":"133671","labels":["Word","DefWord"],"properties":{"vars":"['e1']","defId":"defIDof+$","sentence":" ahorse:RB(e1) -> on:IN(e1,x2) back:NN(x2) of:IN(x2,x1) horse:NN(x1)","word":"of","pos":"IN"}},
+					{"id":"638625","labels":["Variable"],"properties":{"varId":"varx1s91770","name":"x1"}},
+					{"id":"638693","labels":["Variable"],"properties":{"varId":"varx1s91784","name":"x1"}},
+					{"id":"91770","labels":["HeadWord","Word"],"properties":{"vars":"['x1']","sentence":" israel:NN(x1) -> ancient:JJ(x1) kingdom:NN(x1) of:IN(x1,x2) hebrew:JJ(x2) tribe:NN(x2) at:IN(x1,x4) southeastern:JJ(x4) end:NN(x4) of:IN(x4,x5) mediterranean_sea:NN(x5)","word":"israel","hwId":"hwisrael91770","pos":"NN"}},
+					{"id":"91784","labels":["HeadWord","Word"],"properties":{"vars":"['x1']","sentence":" jerusalem:NN(x1) -> capital:NN(x2) and:CC(x1,x2,x3) largest:JJ(x1) city:NN(x3) of:IN(x1,x4) modern:JJ(x4) state:NN(x4) of:IN(x4,x5) israel:NN(x5)","word":"jerusalem","hwId":"hwjerusalem91784","pos":"NN"}}
+				],
+			"relationships":
+				[
+					{"id":"1157403","type":"<-","startNode":"91770","endNode":"638625","properties":{}},
+					{"id":"1157407","type":"IN","startNode":"133671","endNode":"638625","properties":{}},
+					{"id":"1157617","type":"IN","startNode":"133671","endNode":"638693","properties":{}},
+					{"id":"1157609","type":"<-","startNode":"91784","endNode":"638693","properties":{}}
+				]
+			}
+		},
+
+		{
+		"graph":
+			{"nodes":
+				[
+					{"id":"133671","labels":["Word","DefWord"],"properties":{"vars":"['e1']","defId":"defIDof+$","sentence":" ahorse:RB(e1) -> on:IN(e1,x2) back:NN(x2) of:IN(x2,x1) horse:NN(x1)","word":"of","pos":"IN"}},
+					{"id":"638625","labels":["Variable"],"properties":{"varId":"varx1s91770","name":"x1"}},
+					{"id":"638693","labels":["Variable"],"properties":{"varId":"varx1s91784","name":"x1"}},
+					{"id":"91770","labels":["HeadWord","Word"],"properties":{"vars":"['x1']","sentence":" israel:NN(x1) -> ancient:JJ(x1) kingdom:NN(x1) of:IN(x1,x2) hebrew:JJ(x2) tribe:NN(x2) at:IN(x1,x4) southeastern:JJ(x4) end:NN(x4) of:IN(x4,x5) mediterranean_sea:NN(x5)","word":"israel","hwId":"hwisrael91770","pos":"NN"}},
+					{"id":"91784","labels":["HeadWord","Word"],"properties":{"vars":"['x1']","sentence":" jerusalem:NN(x1) -> capital:NN(x2) and:CC(x1,x2,x3) largest:JJ(x1) city:NN(x3) of:IN(x1,x4) modern:JJ(x4) state:NN(x4) of:IN(x4,x5) israel:NN(x5)","word":"jerusalem","hwId":"hwjerusalem91784","pos":"NN"}}
+				],
+			"relationships":
+				[
+					{"id":"1157403","type":"<-","startNode":"91770","endNode":"638625","properties":{}},
+					{"id":"1157407","type":"IN","startNode":"133671","endNode":"638625","properties":{}},
+					{"id":"1157617","type":"IN","startNode":"133671","endNode":"638693","properties":{}},
+					{"id":"1157610","type":"NN","startNode":"91784","endNode":"638693","properties":{}}
+				]
+			}
+		},
+
+		{
+		"graph":
+			{"nodes":
+				[
+					{"id":"638690","labels":["Variable"],"properties":{"varId":"varx1s91783","name":"x1"}},
+					{"id":"133671","labels":["Word","DefWord"],"properties":{"vars":"['e1']","defId":"defIDof+$","sentence":" ahorse:RB(e1) -> on:IN(e1,x2) back:NN(x2) of:IN(x2,x1) horse:NN(x1)","word":"of","pos":"IN"}},
+					{"id":"638625","labels":["Variable"],"properties":{"varId":"varx1s91770","name":"x1"}},
+					{"id":"91783","labels":["HeadWord","Word"],"properties":{"vars":"['x1']","sentence":" jerusalem:NN(x1) -> be:VB(e1,x1,x1) capital:NN(x1) of:IN(x1,x2) ancient:JJ(x2) kingdom:NN(x2)","word":"jerusalem","hwId":"hwjerusalem91783","pos":"NN"}},
+					{"id":"91770","labels":["HeadWord","Word"],"properties":{"vars":"['x1']","sentence":" israel:NN(x1) -> ancient:JJ(x1) kingdom:NN(x1) of:IN(x1,x2) hebrew:JJ(x2) tribe:NN(x2) at:IN(x1,x4) southeastern:JJ(x4) end:NN(x4) of:IN(x4,x5) mediterranean_sea:NN(x5)","word":"israel","hwId":"hwisrael91770","pos":"NN"}}
+				],
+			"relationships":
+				[
+					{"id":"1157605","type":"IN","startNode":"133671","endNode":"638690","properties":{}},
+					{"id":"1157407","type":"IN","startNode":"133671","endNode":"638625","properties":{}},
+					{"id":"1157404","type":"NN","startNode":"91770","endNode":"638625","properties":{}},
+					{"id":"1157599","type":"<-","startNode":"91783","endNode":"638690","properties":{}}
+				]
+			}
+		}
+	]
+	}
+],
+
+"errors":[]}

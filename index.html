@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+    html {
+      height:90%;
+    }
+    table.fixed { table-layout:fixed; }
+    table.fixed td { overflow: hidden; }
+    body {
+      position:absolute; top:0; bottom:0; right:0; left:0;
+    }
+    .node {
+      stroke: #fff;
+      stroke-width: 1.5px;
+    }
+    .node-active{
+      stroke: #555;
+      stroke-width: 1.5px;
+    }
+    .link {
+      stroke: #999;
+      stroke-opacity: .6;
+    }
+    .link-active {
+      stroke-opacity: 1;
+    }
+    path.link {
+      fill: none;
+      stroke: #666;
+      stroke-width: 1.5px;
+      stroke-opacity: 0.2;
+    }
+    path.link-active {
+      stroke-opacity: 1;
+    }
+    .d3-tip {
+      line-height: 1;
+      font-weight: bold;
+      padding: 12px;
+      background: rgba(0, 0, 0, 0.8);
+      color: #fff;
+      border-radius: 2px;
+    }
+    </style>
+
+    <script src="http://code.jquery.com/jquery-2.1.3.min.js"></script>
+    <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/lodash.js/0.10.0/lodash.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.4.1/d3.min.js"></script>
+    <script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
+    <script src="/js/forceGraph.js"></script>
+    <title>Neo4j Viz</title>
+    <link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <!--<script type="text/javascript" src="js/query.js"></script>-->
+  </head>
+  <body>
+    <h1>Neo4jViz</h1>
+
+
+
+      <table border="1" style="width:100%" style="height:90%" class="fixed">
+        <col width="275px" />
+        <col width="200px" />
+        <tr>
+          <td id="tab1" halign="left"></td>
+          <td valign="top">
+              Enter a word pair to get the path between them:
+            </br>
+              <input id="w1" type="text" name="w1">
+              <input id="w2" type="text" name="w2">
+              <button type="button" onclick="contextSurf()">Submit</button>
+              <button type="button" onclick="clearSVG()">Clear</button>
+              <button type="button" onclick="deploy()">Deploy</button>
+
+            </p>Path Depth Limit:
+              <input id="w3" type="text" name="w3" value="3">
+            </p>Show Sentence #:
+              <input id="w4" type="text" name="w4" value="">
+              <button type="button" onclick="showSentence()">Submit</button>
+              <button type="button" onclick="console.clear()">Clear Console</button>
+
+              <p id="test1">
+              <p id="test2">
+              <div id="message">*********************************</div>
+              <p id="tab2"></p>
+          <table>
+
+          </td>
+        </tr>
+      </table>
+
+  </body>
+</html>
